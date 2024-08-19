@@ -39,8 +39,8 @@ int main() {
   // Declare a varible 
   int myNum;
 
-  // assign a value to the variable
-  myNum = 2008; 
+  // assign a value to the variable <br>
+<code>myNum = 2008;</code>
 
   // ========== FORMAT  SPECIFIERS ==========
   /* Format specifiers are used together with printf() function to tell the compiler 
