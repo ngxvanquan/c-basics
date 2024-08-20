@@ -74,8 +74,7 @@ printf("%c\n", myLetter);
 <code>printf("My number is %d and my letter is %c", myNum, myLetter);</code> <br>
 
 // also just print a value without storing it in a variable, as long as you use the correct format specifier: <br>
-<code>
-printf("My favorite number is: %d", 15); <br>
+<code>printf("My favorite number is: %d", 15); <br>
 printf("My favorite letter is: %c", 'D');
 </code>
 
@@ -84,8 +83,7 @@ printf("My favorite letter is: %c", 'D');
 myNum3 = 16; // now myNum3 is 16 </code>
 
 #### multiple variables
-<code>
-int x = 5, y = 6, z = 50; <br>
+<code>int x = 5, y = 6, z = 50; <br>
 int x2, y2, z2; <br>
 x2 = 5; <br>
 y2 = 6; <br>
