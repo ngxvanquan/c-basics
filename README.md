@@ -65,49 +65,51 @@
 <code>char myLetter = 'D';</code> // Character
 
 #### Print variables <br>
-<code>
-printf("%d\n", myNum2); <br>
+<code>printf("%d\n", myNum2); <br>
 printf("%f\n", myFloatNum); <br>
 printf("%c\n", myLetter);
 </code>
 
-// To combine both text and a variable, separate them with a comma inside the printf() function:
-printf("My number is %d and my letter is %c", myNum, myLetter);
+// To combine both text and a variable, separate them with a comma inside the printf() function:<br>
+<code>printf("My number is %d and my letter is %c", myNum, myLetter);</code> <br>
 
-// also just print a value without storing it in a variable, as long as you use the correct format specifier:
-printf("My favorite number is: %d", 15);
+// also just print a value without storing it in a variable, as long as you use the correct format specifier: <br>
+<code>
+printf("My favorite number is: %d", 15); <br>
 printf("My favorite letter is: %c", 'D');
+</code>
 
-// change value
-int myNum3 = 10; // myNum3 is 10
-myNum3 = 16; // now myNum3 is 16
+#### change value <br>
+<code>int myNum3 = 10; // myNum3 is 10 <br>
+myNum3 = 16; // now myNum3 is 16 </code>
 
-// multiple variables
-int x = 5, y = 6, z = 50;
-int x2, y2, z2;
-x2 = 5;
-y2 = 6;
+#### multiple variables
+<code>
+int x = 5, y = 6, z = 50; <br>
+int x2, y2, z2; <br>
+x2 = 5; <br>
+y2 = 6; <br>
 z2 = 50;
+</code>
 
-// ========== VARIABLE NAME ==========
-/_ All variables name must be identified with unique names
-_ These unique names are called identifiers \* Identifiers can be short name (like x and y) or more descriptive names (age, sum, totalVolume)
+// ========== VARIABLE NAME ========== <br>
+-   *All variables name must be identified with unique names* <br>
+-   These unique names are called identifiers. Identifiers can be short name (like x and y) or more descriptive names (age, sum, totalVolume)
 
 -   It is recommended to use descriptive names in order to create understandable and maintainable code: \*/
 
-// Good variable
-<code>int minutesPerHour = 60;</code>
-// ok, but not easy to understand what m actually is
+// Good variable <br>
+<code>int minutesPerHour = 60;</code> <br>
+// ok, but not easy to understand what m actually is <br>
 <code>int m = 60;</code>
 
-// GENERAL RULE FOR NAMING VARIABLES ARE
-/\* Names can content Letter, Digits and Underscores
-
+// GENERAL RULE FOR NAMING VARIABLES ARE <br>
+-   Names can content Letter, Digits and Underscores
 -   Names must begin with a Letter or Underscores
 -   Names are case-sensitive (myVar and myvar are different variables)
 -   Names cannot contain whitespace or special characters like !@#$% etc
 -   Reserved words (such as int) cannot be used as names \*/
 
-    // return 0 - end of main() function
-    return 0;
-    }
+    // return 0 - end of main() function .<br>
+    <code>return 0;</code> <br>
+}
