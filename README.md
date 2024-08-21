@@ -1,3 +1,5 @@
+# From W3schools
+
 <code>#include <stdio.h></code> - input output
 
 \* thing that always appear in a C program
@@ -108,12 +110,50 @@ z2 = 50;
 -   Reserved words (such as int) cannot be used as names \*/
 
 #### DATA TYPE
--   Variables in C must be a *specified data type*
--   must use a *format specifier* inside the <code>printf()</code> function to display it
-`
-int myNum = 5; // Interger (whole number)
-`
+-   Variables in C must be a **specified data type**
+-   must use a **format specifier** inside the <code>printf()</code> function to display it <br>
+`int myNum = 5;` // integer (whole number)
 
+#### Basic Format Specifiers
+-   `%d` or `%i` for `int`
+-   `%f` or `%F` for `float`
+-   `%lf` for `double`
+-   `%c` for `char`
+-   `%s` for string (will learn later)
+
+#### Character Data Type
+-   The `char` Data type is used to **store a single character** 
+-   The character **must be surrounded by single quotes** <br>
+<code>char myGrade = 'A'; <br>
+printf("%c", myGrade); </code>
+
+-   Can use ASCII values to display certain characters (must be surrounded by a single quotes `''`) <br>
+<code>
+char a = 65, b = 66, c = 67; <br>
+printf("%c", a);<br>
+printf("%c", b);<br>
+printf("%c", c);
+</code>
+
+#### Numeric Data Types 
+-   use `int` when store a whole number without decimal (like `10` `2008`)
+-   `float` or `double` store a floating point number with decimal (like `3.34` `3.14`)
+
+##### Float vs Double
+-   The precision of a floating point value indicates how many digits the value can have after the decimal point
+-   float is **six or seven decimal** digits
+-   double variables have a precision of about **15** digits
+
+##### Set Decimal Precision
+-   use a dot (.) followed by a number that specifies how many digits that should be shown after the decimal point <br>
+<code>float myFloatNum = 3.5;<br>
+printf("%f\n", myFloatNum);   // Default will show 6 digits after the decimal point<br>
+printf("%.1f\n", myFloatNum); // Only show 1 digit <br>
+printf("%.2f\n", myFloatNum); // Only show 2 digits<br>
+printf("%.4f", myFloatNum);   // Only show 4 digits 
+</code>
+
+<hr>
     // return 0 - end of main() function .<br>
     <code>return 0;</code> <br>
 }
