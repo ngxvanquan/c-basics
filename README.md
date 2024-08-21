@@ -25,8 +25,7 @@
 -   -   <code>\\\\</code> insert a backslash character \
 -   -   <code>\\"</code> insert double quotations character \"
 -   -   <code>\\'</code> insert single quotations character \' <br>
-        <code>
-        printf("Hello World 2\n"); <br>
+        <code>printf("Hello World 2\n"); <br>
         printf("Hello World 3\n");
         </code>
 
@@ -107,6 +106,13 @@ z2 = 50;
 -   Names are case-sensitive (myVar and myvar are different variables)
 -   Names cannot contain whitespace or special characters like !@#$% etc
 -   Reserved words (such as int) cannot be used as names \*/
+
+#### DATA TYPE
+-   Variables in C must be a *specified data type*
+-   must use a *format specifier* inside the <code>printf()</code> function to display it
+`
+int myNum = 5; // Interger (whole number)
+`
 
     // return 0 - end of main() function .<br>
     <code>return 0;</code> <br>
