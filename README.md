@@ -153,6 +153,9 @@ printf("%.2f\n", myFloatNum); // Only show 2 digits<br>
 printf("%.4f", myFloatNum);   // Only show 4 digits 
 </code>
 
+#### Sizeof Operator
+- memory size of a variable varies **depending on the type**
+
 <hr>
     // return 0 - end of main() function .<br>
     <code>return 0;</code> <br>
