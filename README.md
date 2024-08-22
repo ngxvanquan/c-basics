@@ -155,6 +155,30 @@ printf("%.4f", myFloatNum);   // Only show 4 digits
 
 #### Sizeof Operator
 - memory size of a variable varies **depending on the type**
+- The memory size refers to how much space a type occupies in the computer's memory.
+- get the size (in bytes) of a data type or variable, use the `sizeof` operator<br>
+
+<code>
+int myInt; <br>
+float myFloat;<br>
+double myDouble;<br>
+char myChar;<br>
+<br>
+printf("%lu\n", sizeof(myInt));<br>
+printf("%lu\n", sizeof(myFloat));<br>
+printf("%lu\n", sizeof(myDouble));<br>
+printf("%lu\n", sizeof(myChar)); <br>
+</code>
+
+##### format specifiers for sizeof, instead of `%d`. 
+- It is because the compiler expects the `sizeof` operator to return a `long unsigned int` (`%lu`), instead of int (`%d`). On some computers it might work with `%d`, but it is safer to use %lu.
+
+#### Why we should know the size of data types 
+- it says something about memory usage and performance
+
+- For example, the size of a `char` type is 1 byte. Which means if you have an array of 1000 `char` values, it will occupy 1000 bytes (1 KB) of memory.
+
+- Using the right data type for the right purpose will save **memory** and improve the **performance** of your program.
 
 <hr>
     // return 0 - end of main() function .<br>
